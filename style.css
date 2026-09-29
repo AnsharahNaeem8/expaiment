@@ -21,7 +21,7 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
-    background: rgba(8, 11, 26, 0.90);
+    background: #01585f;
     backdrop-filter: blur(15px);
     border-bottom: 1px solid rgba(255,255,255,.08);
 }
@@ -51,6 +51,8 @@ header {
     color: #b8bdd1;
     margin-top: 4px;
 }
+
+
 
 .menu {
     display: flex;
@@ -226,7 +228,7 @@ header {
 
 .title span,
 .line {
-    background: #e95bdc;
+    background: #7c90a6;
 }
 
 .title span {
@@ -280,7 +282,7 @@ header {
     justify-content: center;
     align-items: center;
     font-size: 27px;
-    background: linear-gradient(135deg,#7438b7,#e54dc9);
+    background: #7c90a6;
     margin-bottom: 15px;
 }
 
@@ -290,7 +292,8 @@ header {
 
 .skill-box h3 span,
 .tools-heading h3 span {
-    color: #df54e9;
+    color: #add8e6;
+    /* -webkit-text-stroke: 0.25px white; white border */
 }
 
 .line {
@@ -314,7 +317,7 @@ header {
 
 .skill-box li::before {
     content: "✓";
-    color: #f05ddd;
+    color: #7c90a6;
     font-weight: bold;
     margin-right: 10px;
 }
